@@ -1,0 +1,99 @@
+/* Tablet & Mobile */
+@media (max-width: 1023px) {
+    .btn {
+        padding : 15px 16px;
+    }
+    .contact-from .form-control {
+        padding : 14px;
+    }
+    .social-list {
+        font-size :48px !important;
+    }
+    #footer .copyright a {
+        padding: 13px 0;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+/* tablet */
+@media (min-width : 740px) and (max-width: 1023px)
+{
+    .contact-info {
+        line-height: 2;
+    }
+}
+
+/* Mobile */
+/* bé hơn 740 thì hiện */
+@media (max-width : 739px)
+{
+    /* dùng trên mobile */
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #header {
+        /* ẩn thẻ con trong header khi chuyển qua mobile*/
+        overflow: hidden;
+    }
+    #header .search-btn {
+        display: none; /* ẩn nút tìm kiếm khi đổi qua mobile*/
+    }
+    #header .mobile-menu-btn{
+        display: block; /* chỉ mobile mới hiện*/
+    }
+
+    #nav {
+        display: block; /* để chiều ngang dài ra*/
+    }
+
+    #nav >li {
+        display: block;
+    }
+
+    #nav li a { 
+        width : 100%; /* click dễ dàng hơn */ 
+    }
+    /* thẻ đầu tiên thành inline-block */
+    #nav > li:first-child{
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial; /*để hiện thẻ con của more*/
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }a
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+    /* css phần member-item để thích hợp với mobile */
+    #content .member-item {
+        width: 100%;
+        margin-top: 30px;
+    }
+    /* css ảnh để hiển thị trên mobile */
+    #content .member-img {
+        width: 60%;
+    }
+
+    .place-item {
+        width: 100%;
+    }
+    /* CONTACT */
+    .contact-from {
+        margin-top: 32px;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+}
