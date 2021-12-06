@@ -78,6 +78,7 @@ html {
     text-decoration: none; /*bỏ dấu gạch chân*/
     margin-top: 15px;
     border: none;
+    -webkit-appearance: none;
 }
 
 .btn:hover{
